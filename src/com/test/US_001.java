@@ -13,7 +13,18 @@ public class US_001 {
         for (int i = firstName.length()-1; i >= 0 ; i--) {
             char ch = firstName.charAt(i);
             System.out.print(ch);
+
         }
+
+        System.out.println();
+
+        for (int i = lastName.length()-1; i >= 0 ; i--) {
+            char ch = lastName.charAt(i);
+            System.out.print(ch);
+
+        }
+
+
 
 
     }
