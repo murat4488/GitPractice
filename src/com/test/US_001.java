@@ -10,6 +10,10 @@ public class US_001 {
 
         System.out.println("First Name = " + firstName+"\nLast Name = "+lastName+"\nAge = "+age);
 
+        for (int i = firstName.length()-1; i >= 0 ; i--) {
+            char ch = firstName.charAt(i);
+            System.out.print(ch);
+        }
 
 
     }
